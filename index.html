@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> My first Bootstrap Project </title>
+		<link rel="stylesheet" href="css/bootstrap.css"/> 
+	</head>
+	<body>
+	
+		<!--	<link rel="stylesheet" href="css/bootstrap.css"/> 
+				
+			<div class ="container"> 
+			<h1><a href =""#""> Bootstrap Site </a> </h1>
+			</div>
+			Giải thích chút :
+				1. Class “navbar” phải được bao bọc bên ngoài cho toàn menu bởi vì 
+					Twiter Bootstrap đã định nghĩa như thế giúp chúng ta mau chóng tạo ra 1 thanh navigation.
+				2. “navbar-inner” giúp ta định nghĩa, định vị được các nội dung nằm bên trong “navbar”
+				3.“container” giúp bao bọc nội dung của menu và ngoài ra nó còn kiểm soát, hiển thị được trên các thiết bị Di Động khác 
+					( sau này mình sẽ hướng dẫn kĩ hơn “
+				4.“active” giúp cho thành phần đó được nổi trội hơn các thành phần ngang hàng.Tạo sự khác biệt giúp người dùng Client dễ nhận biết.
+		-->
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src ="js/bootstrap.js"> </script>
+		
+		<div class ="container"> 
+			<h1><a href =""#""> Bootstrap Site </a> </h1>
+		
+			
+		<div class ="navbar">
+			<div class ="navbar-inner">
+				<div class="container">
+					<ul class = "nav">
+						<li class="active"><a href ="#" >Home</a></li>
+						<li> <a href="#"> Project</a></li>
+						<li> <a href="#"> Services</a></li>
+						<li> <a href="#"> Downloads</a></li>
+						<li> <a href="#"> About</a></li>
+						<li> <a href="#"> Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="hero-unit">
+        <h1>Marketing AREA!</h1>
+
+        <p>Đây là phần mà theo các Web-developer cho là phần Twiter định nghĩa tốt nhất  về phương diện design đấy các bạn ạ.</p>
+
+        <a href="#" class="btn btn-large btn-success">Get Started</a>
+     </div>
+	 <article class="row">
+		<section class="span4">
+			<p>Dummy Text </p>
+			<ul class ="nav nav-list">
+			
+			<li class ="nav-header">Mo Dau:</li>
+			<li class = "active" ><a href="#">Home</a></li>
+			<li class="dropdown">
+				<a href ="#" class="dropdown-toggle" data-toggle="dropdown">Our Clients
+					<!--<b class="caret"></b> -->
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Item1</a></li>
+					<li><a href="#">Item2</a></li>
+					<li><a href="#">Item3</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="#">About Me</a></li>
+			<li><a href="#">About My Foot</a></li>
+			
+			<li class="nav-header">Our Friend</li>
+			<li><a href="#">Google</a></li>
+			<li><a href="#">Flickr</a></li>
+			<li><a href="#">Bing</a></li>
+			<li><a href="#">Youtube</a></li>
+			<li><a href="#">Facebook</a></li>
+			
+			<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-th-large"></i> Drop Down
+        <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+        <li><a href="#">Item1</a></li>
+        <li><a href="#">Item2</a></li>
+        <li><a href="#">Item3</a></li>
+    </ul>
+</li>
+	</ul>
+		</section>
+		<section class ="span8">
+			<p> Dummy Text </p>
+			<h3>Tối nay ăn gì ?</h3>
+			<p>Bánh tráng trộn - bánh tráng trứng - bánh tráng nướng - bánh tráng chín.</p>
+			<p>Ăn cho mập thây, cơ mà trưa rồi kể nghe thèm quá >"<.</p>
+			<h3>Làm sao để mua?</h3>
+			<p>Xách honda lên mà chạy....chứ sao!!!</p>
+		</section>
+	</article>
+	<!--
+		các class: muted ( làm mờ ), text-center ( định dạng chữ chính giữa ), 
+		“icon-user” ( tạo icon nhỏ theo phong cách font-awesome, gây thiện cảm hơn với người dùng. Xem thêm ),
+		” btn-info” ( tô màu xanh cho button )…
+		-->
+	<footer>
+		<div class="row">
+			<div class="span4">
+				<h4 class="muted text-center">Về Đối Tác</h4>
+				<p> ....</p>
+				<a href="#" class="btn" > <i class="icon-user"></i>Khách hàng của chúng tôi</a>
+			</div>
+			
+			<div class="span4">
+				<h4 class ="muted text-center">Về Đội Ngũ</h4>
+				<p>....</p>
+				<a href="#" class="btn btn-success"><i class="icon-star icon-white"></i>Đội Ngủ Của Chúng Tôi</a>
+			</div>
+			
+			<div class= "span4">
+				<h4 class="muted text-center">Ve Giai Thuong</h4>
+				<p>...</p>
+				<a href="#" class="btn btn-info">Lien he voi chung toi</a>
+			</div>
+			<hr>
+		</div>
+	</footer>
+	<div class="footer">
+		<p>&copy; 2013</p>
+	</div>
+	</body>
+</html>
