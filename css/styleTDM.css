@@ -1,0 +1,143 @@
+body{
+		margin: 0;
+		padding: 0;
+	}
+.header{
+	background-color:  #303f9f;
+	height: 40px;
+	padding-bottom: 5px;
+	padding-top: 8px;
+}
+p.title{
+			font-size : 15px;
+			color : rgba(255,255,255,.7);
+			margin-top: 0;
+			padding-top : 18px;
+			margin-left: 20px;
+			clear : both;
+		}
+
+.obDev{
+	text-decoration: none;
+	font-size: 37px;
+	float:left;
+	height:40px;
+	color: rgba(255,255,255,.7);
+}
+a.tab1:hover{
+	color: white;
+}
+#dev{
+	float:left;
+	height:35px;
+	margin-top: -3px;
+	padding-left : 20px;
+	padding-right : 103px;
+}
+#image{
+	float: left;
+	height:35px;
+	width: 39px;
+	padding-left: 15px;
+}
+#imgbook{
+	 margin-left: 15;
+  margin-top: 10px;
+}
+#CWhite{
+	color: white;
+	font-size: 40px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#imgAvt{
+	float: right;
+	border-radius:50%;
+	height: 30px;
+	width: 32px;
+	margin-right: 25px;
+	margin-top: -15px;
+}
+#userName{
+	color: rgba(255,255,255,.7);
+	text-decoration: none;
+}
+#Signo{
+	color: rgba(255,255,255,.7);
+	text-decoration: none;
+}
+.container{
+	background-color : #4C68BE;
+}
+ul{
+	list-style-type: none;
+	margin-top: 30px;
+	padding: 0;
+	padding-bottom: 30px;
+	//overflow: hidden;	
+	}
+li{
+
+	display: inline;
+	float: left;
+	padding-left: 30px;
+}
+.right{
+		position: absolute;
+		right: 0px;
+		padding-right: 10px;
+}
+.changeC{
+	color: rgba(255,255,255,.7);
+	text-decoration: none;
+}
+a.tab4{
+	color: rgba(255,255,255,.7);
+	text-decoration: underline !important;
+	border: 2px;
+}
+a.changeC:hover{
+	color: white;
+	
+}
+a.tab3:hover{
+	color: white;
+	background: #778DC6;
+}
+
+.box-search{
+	float:left;
+	width : 50%;
+	margin-top:2px;
+	padding-left: 20;
+	border : 0 none;
+	background-color: #425DB8;
+	outline : none;
+	color : white;
+	margin-right : 120px;
+	font-size: 14px;
+	padding-top: 7px;
+	padding-bottom : 7px;
+	border-bottom-right-radius: 3px; // lam cong goc cua box
+	border-top-right-radius: 3px;
+}
+.search{
+	position: absolute;
+	left : 350px;
+	top : 10px;
+	border: 0 none;
+	width : 50px;
+	height : 30px;
+	background-size: 50px 30px;
+	background-image: url("search.png") ;
+	
+}
+.box-search:hover{
+	background-color: #7986CB;
+}
+::-webkit-input-placeholder { // doi mau chu cua placeholder
+	   color:white;
+	}
+
+
+
